@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*my css code*/
+nav{
+    position: fixed;
+    width: 13%;
+    float: left;
+    height: 943px;
+    background-color: #eeeeee;
+    padding: 2% 1%;
+    border-left: 1px solid lightgrey;
+}
+
+nav input{
+    margin-top: 5%;
+    width: 95%;
+    height: 32px;
+    margin-bottom: 5%;
+}
+nav button{
+    background-color: #029a02;
+    border: none;
+    width: 98%;
+    height: 35px;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-size: 15px;
+}
+nav button:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+nav li{
+    height: 30px;
+    width: 97%;
+    padding-top: 4%;
+    margin-top: 4%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav li:hover{
+    background-color: lightgrey;
+}
+
+.main-box{
+    width: 70%;
+    height: 1870px;
+    padding: 2%;
+    margin-left: 30%;
+    border-right: 1px solid lightgrey;
+}
+.main-box h1{
+    font-size: 35px;
+    color: #029a02;
+    font-family: Arial;
+}
+.images{
+    width: 100%;
+    height: 430px;
+    margin-bottom: 5%;
+}
+.the-space{
+    margin-top: 2%;
+    width: 100%;
+    height: 220px;
+   border-bottom: 1px solid lightgrey;
+}
+.lhs{
+    float: left;
+    width: 50%;
+}
+.rhs{
+    float: right;
+    width: 50%;
+
+}
+.lhs li{
+    height: 30px;
+    width: 70%;
+    float: left;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.rhs li{
+    height: 30px;
+    width: 70%;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 2%;
+}
+.subscribe{
+    background-color: #029a02;
+    border: none;
+    width: 30%;
+    height: 35px;
+    margin-top: 2%;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.subscribe:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+.contact{
+    margin-top: 2%;
+    width: 100%;
+    height:500px;
+
+}
+.contact input{
+    margin-top: 3%;
+    width: 100%;
+    height: 32px;
+    padding-left: 1%;
+}
+.contact button {
+    background-color: #029a02;
+    border: none;
+    width: 30%;
+    height: 35px;
+    margin-top: 3%;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.contact button:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}

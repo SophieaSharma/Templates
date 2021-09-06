@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Rental_template.css" type="text/css">
+    <title>Rental Template</title>
+</head>
+<body style="padding-left: 25%; padding-right: 25%;">
+
+    <nav>
+        <p style="font-size: 23px;">Rental</p> <br>
+        <p style="font-size: 23px;">from $99</p><br>
+        <p style="margin-bottom: 12%;">per night</p>
+        <form action="">
+            <i style="margin-right:2%; " class="fa fa-calendar-check-o"></i><label for="checkin">Check In</label> <br>
+            <input type="date" id="checkin" name="checkin" required> <br>
+            <i style="margin-right:2%; " class="fa fa-calendar-o"></i><label for="checkout">Check Out</label> <br>
+            <input type="date" id="checkout" name="checkout" required> <br>
+            <i style="margin-right:2%; " class="fa fa-male"></i><label for="adult">Adults</label> <br>
+            <input value="1" type="number" id="adult" name="adult" min="0" max="100"> <br>
+            <i style="margin-right:2%; " class="fa fa-child"></i><label for="kids">Kids</label> <br>
+            <input value="1" type="number" id="kids" name="kids" min="0" max="50"> <br>
+            <button> <i class="fa fa-search" style="margin-right: 10%;"></i>Search Availability</button>
+        </form>
+
+        <ul>
+            <li style="margin-top: 12%;"><i class="fa fa-building"  style="margin-right: 1%;"></i><a href="">Apartment</a></li>
+            <li><i class="fa fa-rss"  style="margin-right: 1%;"></i><a href="">Subscribe</a></li>
+            <li><i class="fa fa-envelope"  style="margin-right: 1%;"></i><a href="#extrainfo">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-box">
+        <h1>The Apartment</h1>
+        <div class="images">
+            <iframe src="rental_template_directory/livingroom.html" style="width: 100%; height: 450px;"></iframe>
+        </div>
+        <div class="the-space">
+          <p style="margin-bottom: 5%; font-weight: bold; font-size: 24px;"><b>The space</b></p>
+           <ul class="lhs">
+               <li><i class="fa fa-male" style="margin-right: 8%;"></i>Max people: 4</li>
+               <li><i class="fa fa-bath" style="margin-right: 5%;"></i>Bathrooms: 2</li>
+               <li><i class="fa fa-bed" style="margin-right: 5%;"></i>Bedrooms: 1</li>
+           </ul>
+            <ul class="rhs">
+                <li><i class="fa fa-clock-o" style="margin-right: 8%;"></i>Check In: After 3PM</li>
+                <li><i class="fa fa-clock-o" style="margin-right: 8%;"></i>Check Out: 12PM</li>
+            </ul>
+        </div>
+        <div class="the-space">
+            <p style="margin-bottom: 5%; font-weight: bold; font-size: 24px;"><b>Amenities</b></p>
+            <ul class="lhs">
+                <li><i class="fa fa-shower" style="margin-right: 6%;"></i>Shower</li>
+                <li><i class="fa fa-wifi" style="margin-right: 5%;"></i>WiFi</li>
+                <li><i class="fa fa-tv" style="margin-right: 5%;"></i>TV</li>
+            </ul>
+            <ul class="rhs">
+                <li><i class="fa fa-cutlery" style="margin-right: 6%;"></i>Kitchen</li>
+                <li><i class="fa fa-thermometer-half" style="margin-right: 8%;"></i>Heating</li>
+                <li><i class="fa fa-wheelchair" style="margin-right: 5%;"></i>Accessible</li>
+            </ul>
+        </div>
+        <div id="extrainfo" class="the-space" style="height: 190px;">
+            <p style="margin-bottom: 3%; font-weight: bold; font-size: 24px;"><b>Extra Info</b></p>
+            <p style="line-height: 20px;">Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p style="margin-top: 4%; margin-right: 1%; float: left;">We Accept:</p>
+            <i class="fa fa-credit-card" style="margin-top: 4%; margin-right: 1%; "></i>
+            <i class="fa fa-cc-mastercard" style="margin-top: 4%; margin-right: 1%; "></i>
+            <i class="fa fa-cc-amex" style="margin-top: 4%; margin-right: 1%; "></i>
+            <i class="fa fa-cc-paypal" style="margin-top: 4%; margin-right: 1%; "></i>
+        </div>
+        <div class="the-space"style="height: 210px;">
+            <p style="margin-bottom: 5%; font-weight: bold; font-size: 24px;">Rules</p>
+            <p style="line-height: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p style="padding-top: 2%;">Subscribe to receive updates on available dates and special offers.</p>
+            <button class="subscribe">Subscribe</button>
+        </div>
+        <div class="contact" >
+
+            <p style="font-size: 32px; margin-bottom: 2%;">Contact</p>
+            <p style="margin-bottom: 1%;">Let us book your next trip!</p>
+            <i class="fa fa-map-marker" style="float: left; margin-right: 2%;"></i>
+            <p style="float: left; width: 20%; padding-left: 0.6%;"> Chicago, US</p> <br>
+            <i class="fa fa-phone" style="float: left; margin-right: 2%;"></i>
+            <p style="float: left; padding-left: 0.3%;">Phone: +00 151515</p> <br>
+            <i class="fa fa-envelope" style="float: left; margin-right: 2%;"></i>
+            <p style="float: left;">Email: mail@mail.com</p>
+            <br>
+            <p style="padding-top: 4%;">Questions? Go ahead, ask them:</p>
+            <form action="">
+                <input type="text" id="name" name="name" placeholder="Name" ><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <input type="text" id="message" name="message" placeholder="Message"><br>
+                <button>SEND MESSAGE</button>
+            </form>
+            <p style="padding-top: 2%;">Powered by <a href="Rental_Template.html" style="color:black; ">Rental Template</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>

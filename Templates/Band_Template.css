@@ -1,0 +1,234 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*reset css*/
+
+/*............ MY CSS CODE.............*/
+
+nav{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    background-color: black;
+}
+nav a{
+    float: left;
+    font-size: 23px;
+    color: white;
+    padding: 0.6% 2%;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+.fa-caret-down:hover{
+    color: black;
+}
+.more{
+    position: relative;
+}
+.more-content{
+    position: absolute;
+    display: none;
+    width: 120%;
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 8px 8px 0;
+    left: 0;
+    margin-top: 8%;
+}
+.more-content li {
+    color: black;
+    display: block;
+    padding: 5%;
+}
+.more:hover .more-content{
+    display: block;
+}
+.more-content li:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+
+
+.fa-search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.center-bottom{
+    position: absolute;
+    bottom: 11%;
+    left: 40%;
+}
+.center-bottom h2, p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+.band, .tour, .contact{
+    width: 40%;
+    height: 550px;
+    background-color: white;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.band p{
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+}
+.band span{
+    display: inline-block;
+    color: black;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.band img {
+    width: 20%;
+    height: 150px;
+    float: left;
+    margin-top: 2%;
+}
+.dates-form{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    margin-bottom: 5%;
+}
+.tour img{
+    width: 32%;
+    height: 150px;
+    margin-top: 2%;
+}
+.tour img:hover{
+    opacity: 0.6;
+}
+.img-description{
+    width: 28%;
+    height: 150px;
+    background-color: white;
+    padding: 1% 2%;
+}
+.img-description button{
+    width: 50%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    font-size: 15px;
+}
+.img-description button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.powered-by{
+    width: 100%;
+    height: 100px;
+    padding-top: 3%;
+}
+.fa{
+    color: grey;
+    font-size: 26px;
+}
+.fa-facebook-square:hover{
+    opacity: 0.7;
+}
+.fa-instagram:hover{
+    opacity: 0.7;
+}
+.fa-snapchat:hover{
+    opacity: 0.7;
+}
+.fa-pinterest:hover{
+    opacity: 0.7;
+}
+.fa-twitter:hover{
+    opacity: 0.7;
+}
+.fa-linkedin:hover{
+    opacity: 0.7;
+}
+.contact ul{
+    float: left;
+    padding: 1%;
+    width: 40%;
+    height: 200px;
+}
+.contact li{
+   font-size: 20px;
+    margin-top: 2%;
+}
+.fan-form{
+    width: 46%;
+    height: 200px;
+    float: right;
+}
+.fan-form input{
+    width: 45%;
+    height: 30px;
+    margin-bottom: 3%;
+    padding-left: 1%;
+}
+.fan-form button{
+    background-color: black;
+    width: 20%;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    float: right;
+    margin-right: 1%;
+}
+.fan-form button:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
